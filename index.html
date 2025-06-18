@@ -9,14 +9,9 @@
     h1 {
       font-family: serif;
       font-weight: 600;
-      font-size: 3rem;
+      font-size: 2.5rem;
       color: green;
       margin-top: 30px;
-    }
-
-    img {
-      width: 100%;
-      max-width: 200px;
     }
 
     button {
@@ -28,10 +23,16 @@
       font-size: 1.5rem;
       color: #fff;
       font-weight: 550;
+      margin-bottom: 30px;
     }
 
     button:hover {
       background-color: rgb(6, 156, 6);
+    }
+
+    .dice-img {
+      max-width: 150px;
+      width: 100%;
     }
   </style>
 </head>
@@ -40,14 +41,14 @@
   <h1>ROLL THE DICE</h1>
 
   <div class="container my-5">
-    <div class="row justify-content-center align-items-center text-center g-4">
-      <div class="col-6 col-md-4">
+    <div class="row justify-content-center text-center g-4">
+      <div class="col-6 col-sm-4">
         <p>Player 1</p>
-        <img class="img1" src="./image/dice6.png" alt="Player 1 Dice" />
+        <img class="img1 img-fluid dice-img mx-auto" src="./image/dice6.png" alt="Player 1 Dice" />
       </div>
-      <div class="col-6 col-md-4">
+      <div class="col-6 col-sm-4">
         <p>Player 2</p>
-        <img class="img2" src="./image/dice6.png" alt="Player 2 Dice" />
+        <img class="img2 img-fluid dice-img mx-auto" src="./image/dice6.png" alt="Player 2 Dice" />
       </div>
     </div>
   </div>
